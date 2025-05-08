@@ -62,7 +62,7 @@ const ModalSurveyForm = ({ isOpen, onClose, onSubmit, formData, setFormData }) =
                 <div className="form-group">
                   <input
                     type="text"
-                    value={formData.phone || ""}
+               
                     placeholder="Số điện thoại hoặc email"
 
                   />
