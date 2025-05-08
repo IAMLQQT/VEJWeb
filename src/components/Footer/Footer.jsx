@@ -16,28 +16,28 @@ const Footer = () => {
                     <div class="items">
                         <h3>Dịch vụ</h3>
                         <div class="courses flex items-center ">
-                            <img src="/src/assets/cathryn-lavery-67852-unsplash-75x75.png" alt=""/>
+                            <img src="/assets/cathryn-lavery-67852-unsplash-75x75.png" alt=""/>
                                 <div class="info-courses">
                                     <h5><a href="">GÓI HOẠT ĐỘNG TRẢI NGHIỆM DÀNH CHO HỌC SINH</a> </h5>
                                     <p>Combo 1</p>
                                 </div>
                         </div>
                         <div class="courses flex items-center ">
-                            <img src="/src/assets/Web-1-75x75.png" alt=""/>
+                            <img src="/assets/Web-1-75x75.png" alt=""/>
                                 <div class="info-courses">
                                     <h5> <a href="">GÓI HOẠT ĐỘNG TRẢI NGHIỆM DÀNH CHO HỌC SINH</a> </h5>
                                     <p>Combo 2</p>
                                 </div>
                         </div>
                         <div class="courses flex items-center ">
-                            <img src="/src/assets/Photographer-75x75.png" alt=""/>
+                            <img src="/assets/Photographer-75x75.png" alt=""/>
                                 <div class="info-courses">
                                     <h5> <a href="">GÓI TRẢI NGHIỆM DÀNH CHO GIA ĐÌNH</a> </h5>
                                     <p>Combo 3 </p>
                                 </div>
                         </div>
                         <div class="courses flex items-center ">
-                            <img src="/src/assets/Photographer-75x75.png" alt=""/>
+                            <img src="/assets/Photographer-75x75.png" alt=""/>
                                 <div class="info-courses">
                                     <h5> <a href="">GÓI TRẢI NGHIỆM CÁ NHÂN</a> </h5>
                                     <p>Combo 4 </p>

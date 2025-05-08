@@ -8,22 +8,22 @@ const Achivement = () => {
                 <p>Tại đây bạn có thể xem lại một số số liệu thống kê về Trung tâm Giáo dục của chúng tôi</p>
                 <div class="row flex flex-wrap items-center justify-between">
                     <div class="items col-xs-12 col-sm-6  col-lg-3 flex items-center justify-center flex-col">
-                        <img src="/src/assets/earth.png" alt="" />
+                        <img src="/assets/earth.png" alt="" />
                         <h3>94532</h3>
                         <span>Số lượng người xem</span>
                     </div>
                     <div class="items col-xs-12 col-sm-6  col-lg-3 flex items-center justify-center flex-col">
-                        <img src="/src/assets/bll.png" alt="" />
+                        <img src="/assets/bll.png" alt="" />
                         <h3>11223</h3>
                         <span>Dịch vụ hoàn thành</span>
                     </div>
                     <div class="items col-xs-12 col-sm-6  col-lg-3 flex items-center justify-center flex-col">
-                        <img src="/src/assets/population.png" alt="" />
+                        <img src="/assets/population.png" alt="" />
                         <h3>282673</h3>
                         <span>Số lượng học sinh đã học</span>
                     </div>
                     <div class="items col-xs-12 col-sm-6  col-lg-3 flex items-center justify-center flex-col">
-                        <img src="/src/assets/bag.png" alt="" />
+                        <img src="/assets/bag.png" alt="" />
                         <h3>4</h3>
                         <span>Số lượng Dịch vụ</span>
                     </div>
