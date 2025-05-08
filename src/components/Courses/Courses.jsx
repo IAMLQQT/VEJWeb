@@ -76,7 +76,7 @@ const Courses = () => {
                     <nav>
                         <ul class="flex items-center j-center">
                             <li><a href="" class="newest">Mới nhất</a></li>
-                            <li><a href="">lâu nhất</a></li>
+                            <li><a href="">Lâu nhất</a></li>
                         </ul>
                     </nav>
                 </div>
