@@ -1,0 +1,180 @@
+@charset "UTF-8";
+.service-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+.service-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.service-section .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+.service-section .service-slider {
+  margin: 0 -5px;
+}
+.service-section .service-slider .slider-item {
+  padding: 5px;
+  height: 100%;
+  display: flex;
+}
+.service-section .service-slider .slick-arrow {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.service-section .service-slider .slick-arrow:before {
+  color: #3498db;
+  font-size: 20px;
+}
+.service-section .service-slider .slick-arrow:hover {
+  background: #3498db;
+}
+.service-section .service-slider .slick-arrow:hover:before {
+  color: #fff;
+}
+.service-section .service-slider .slick-prev {
+  left: -60px;
+}
+.service-section .service-slider .slick-prev:before {
+  content: "←";
+}
+.service-section .service-slider .slick-next {
+  right: -60px;
+}
+.service-section .service-slider .slick-next:before {
+  content: "→";
+}
+.service-section .service-slider .slick-dots {
+  bottom: -40px;
+}
+.service-section .service-slider .slick-dots li {
+  margin: 0 5px;
+}
+.service-section .service-slider .slick-dots li button:before {
+  font-size: 12px;
+  color: #3498db;
+  opacity: 0.3;
+}
+.service-section .service-slider .slick-dots li.slick-active button:before {
+  opacity: 1;
+}
+.service-section .service-slider .slick-slide {
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  transform: scale(0.9);
+}
+.service-section .service-slider .slick-slide.slick-active {
+  opacity: 1;
+  transform: scale(1);
+}
+.service-section .service-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.service-section .service-card:hover {
+  transform: translateY(-5px);
+}
+.service-section .service-card .card-header {
+  padding: 25px;
+  background: #3498db;
+  color: white;
+}
+.service-section .service-card .card-header .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.service-section .service-card .card-header .price-info .price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 5px;
+}
+.service-section .service-card .card-header .price-info .unit {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+.service-section .service-card .card-body {
+  padding: 25px;
+}
+.service-section .service-card .card-body .description {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.service-section .service-card .card-body .features-list {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.service-section .service-card .card-body .features-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  color: #34495e;
+}
+.service-section .service-card .card-body .features-list li:before {
+  content: "•";
+  color: #3498db;
+  margin-right: 10px;
+}
+.service-section .service-card .card-body .price-note {
+  background: #f7f9fc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.service-section .service-card .card-body .price-note .icon {
+  font-size: 1.2rem;
+}
+.service-section .service-card .card-body .price-note p {
+  color: #2c3e50;
+  font-size: 0.9rem;
+  margin: 0;
+}
+.service-section .service-card .card-body .special-note {
+  background: #fff3e0;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+.service-section .service-card .card-body .special-note p {
+  color: #f57c00;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.service-section .service-card .card-body .commitments h4 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.service-section .service-card .card-body .commitments ul {
+  list-style: none;
+}
+.service-section .service-card .card-body .commitments ul li {
+  padding: 8px 0;
+  color: #34495e;
+}
+.service-section .service-card .card-body .commitments ul li:before {
+  content: "✓";
+  color: #27ae60;
+  margin-right: 10px;
+}/*# sourceMappingURL=Service.css.map */

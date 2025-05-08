@@ -85,17 +85,11 @@
   z-index: 2;
   transition: 0.3s;
 }
-.top-courses .row .items .infom a {
-  display: block;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
-  color: #B3BAC2;
-}
-.top-courses .row .items .infom a h4 {
+.top-courses .row .items .infom h4 {
   font-size: 17px;
-  color: #FFFFFF;
+  color: #B3BAC2;
   margin-top: 9px;
+  font-weight: 700;
 }
 .top-courses .row .items .infom span {
   font-weight: 700;
@@ -123,7 +117,7 @@
   font-weight: 300;
   margin-left: 5px;
 }
-.top-courses .row .items .infom .star a {
+.top-courses .row .items .infom .star .heart {
   color: #FFFFFF;
 }
 .top-courses .row .items .infom .view span {

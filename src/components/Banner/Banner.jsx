@@ -16,7 +16,7 @@ const Banner = () => {
                          
                             <li><a href="/survey">Khảo sát</a></li>
                             <li>
-                                <a href="">Dịch vụ</a>
+                                <a href="/service">Dịch vụ</a>
                                 <span>HOT</span>
                             </li>
                             <li><a href="">Liên hệ</a></li>

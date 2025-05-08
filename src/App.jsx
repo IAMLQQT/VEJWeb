@@ -5,6 +5,7 @@ import './reset.css'
 import HomePage from './page/Homepage/HomePage'
 import AboutPage from './page/AboutPage/Aboutpage';
 import SurveyPage from './page/SurveyPage/SurveyPage';
+import Service from './components/Service/Service';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />}>
             <Route path="/about" element={<AboutPage />} />
             <Route path="/survey" element={<SurveyPage />} />
+            <Route path="/service" element={<Service />} />
           </Route>
         </Routes>
       </BrowserRouter>

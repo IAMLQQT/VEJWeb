@@ -1,0 +1,222 @@
+.service-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 50px;
+        font-weight: 700;
+    }
+
+    .service-slider {
+        margin: 0 -5px;
+        
+        .slider-item {
+            padding: 5px; // Giảm padding để tạo khoảng cách 10px giữa các cards
+            height: 100%; // Đảm bảo chiều cao đồng đều
+            display: flex; // Sử dụng flexbox
+        }
+
+        // Custom arrows
+        .slick-arrow {
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            z-index: 1;
+            
+            &:before {
+                color: #3498db;
+                font-size: 20px;
+            }
+
+            &:hover {
+                background: #3498db;
+                &:before {
+                    color: #fff;
+                }
+            }
+        }
+
+        .slick-prev {
+            left: -60px;
+            &:before {
+                content: "←";
+            }
+        }
+
+        .slick-next {
+            right: -60px;
+            &:before {
+                content: "→";
+            }
+        }
+
+        // Custom dots
+        .slick-dots {
+            bottom: -40px;
+
+            li {
+                margin: 0 5px;
+
+                button {
+                    &:before {
+                        font-size: 12px;
+                        color: #3498db;
+                        opacity: 0.3;
+                    }
+                }
+
+                &.slick-active {
+                    button:before {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        // Animation
+        .slick-slide {
+            opacity: 0.5;
+            transition: all 0.3s ease;
+            transform: scale(0.9);
+
+            &.slick-active {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    }
+    .service-card {
+        background: white;
+        
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        height: 100%; // Đảm bảo chiều cao 100%
+        width: 100%; // Đảm bảo chiều rộng 100%
+        display: flex; // Sử dụng flexbox
+        flex-direction: column; 
+        &:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-header {
+            padding: 25px;
+            background: #3498db;
+            color: white;
+
+            .card-title {
+                font-size: 1.5rem;
+                margin-bottom: 15px;
+                font-weight: 600;
+                flex-shrink: 0; // Ngăn header co lại
+            }
+
+            .price-info {
+                .price {
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                    display: block;
+                    margin-bottom: 5px;
+                }
+
+                .unit {
+                    font-size: 0.9rem;
+                    opacity: 0.9;
+                }
+            }
+        }
+
+        .card-body {
+            padding: 25px;
+        
+            .description {  
+                color: #2c3e50;
+                margin-bottom: 20px;
+                line-height: 1.6;
+            }
+
+            .features-list {
+                list-style: none;
+                margin-bottom: 25px;
+
+                li {
+                    padding: 10px 0;
+                    border-bottom: 1px solid #eee;
+                    color: #34495e;
+
+                    &:before {
+                        content: "•";
+                        color: #3498db;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .price-note {
+                background: #f7f9fc;
+                padding: 15px;
+                border-radius: 8px;
+                margin-bottom: 25px;
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+
+                .icon {
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    color: #2c3e50;
+                    font-size: 0.9rem;
+                    margin: 0;
+                }
+            }
+            .special-note {
+                background: #fff3e0;
+                padding: 15px;
+                border-radius: 8px;
+                margin: 15px 0;
+
+                p {
+                    color: #f57c00;
+                    margin: 0;
+                    font-size: 0.9rem;
+                }
+            }
+            .commitments {
+                h4 {
+                    color: #2c3e50;
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        padding: 8px 0;
+                        color: #34495e;
+
+                        &:before {
+                            content: "✓";
+                            color: #27ae60;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

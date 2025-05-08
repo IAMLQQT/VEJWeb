@@ -59,6 +59,7 @@ const Courses = () => {
             bottom: "-145px"
         },
     ]
+
     return (
 
         <div class="top-courses">
@@ -78,11 +79,11 @@ const Courses = () => {
                             <div className="items" key={item.id}>
                                 <span className="special">Special</span>
                                 <img src={item.img} alt={item.title} />
-                                <div className={`infom` } style={{ bottom: item.bottom }}>
-                                    <a href="">{item.combo}</a>
-                                    <a href="">
-                                        <h4>{item.title}</h4>
-                                    </a>
+                                <div className={`infom`} style={{ bottom: item.bottom }}>
+                                    <p href="">{item.combo}</p>
+
+                                    <h4>{item.title}</h4>
+
                                     <span className='block'>Đv: {item.priceInit}</span>
                                     <span className='block'>Đơn giá: {item.price}</span>
                                     <p>{item.description}</p>
@@ -95,9 +96,9 @@ const Courses = () => {
                                             <i className="fa-solid fa-star gold"></i>
                                             <span>4.7</span>
                                         </div>
-                                        <a href="" className="heart">
-                                            <i className="fa-regular fa-heart"></i>
-                                        </a>
+
+                                        <i className="fa-regular fa-heart heart" ></i>
+
                                     </div>
                                     <div className="view">
                                         <span>
