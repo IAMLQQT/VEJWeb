@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Banner.css"
 const Banner = () => {
     return (
@@ -12,15 +13,14 @@ const Banner = () => {
                     </div>
                     <nav>
                         <ul class="flex items-center j-center">
-                            <li><a href="/about">Giới thiệu</a></li>
-                         
-                            <li><a href="/survey">Khảo sát</a></li>
+                            <li><Link to="/about">Giới thiệu</Link></li>
+                            <li><Link to="/survey">Khảo sát</Link></li>
                             <li>
-                                <a href="/service">Dịch vụ</a>
+                                <Link to="/service">Dịch vụ</Link>
                                 <span>HOT</span>
                             </li>
-                            <li><a href="">Liên hệ</a></li>
-                            
+                            <li><Link to="">Liên hệ</Link></li>
+
                             <li><a href=""><i class="fa-regular fa-heart"></i></a></li>
                             <li><a href="" class="search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                         </ul>
@@ -31,7 +31,7 @@ const Banner = () => {
                     <h2>Của hành trình đến thành công của bạn</h2>
                     <button><a href="">Bạn đã sẵn sàng?</a></button>
                 </div>
-            
+
             </div>
         </div>
     )
