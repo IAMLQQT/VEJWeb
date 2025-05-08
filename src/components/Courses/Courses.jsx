@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./Courses.css"
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -58,7 +59,13 @@ const Courses = () => {
             description: "Gói sản phẩm dành cho cá nhân hoặc nhóm bạn nhỏ có nhu cầu tham gia trải nghiệm một cách linh hoạt, không phụ thuộc vào lớp học hay gia đình.",
             bottom: "-145px"
         },
-    ]
+    ]  
+    const navigate = useNavigate();
+
+    const handleClick = (id) => {
+      navigate(`/service?id=${id}`);
+    };
+  
 
     return (
 
@@ -76,14 +83,14 @@ const Courses = () => {
                 <div class="row flex flex-wrap items-center justify-between">
                     <Slider {...settings}>
                         {Course.map((item) => (
-                            <div className="items" key={item.id}>
+                            <div className="items" key={item.id} onClick={() => handleClick(item.id)}>
                                 <span className="special">Special</span>
                                 <img src={item.img} alt={item.title} />
-                                <div className={`infom`} style={{ bottom: item.bottom }}>
+                                <div className={`infom` } style={{ bottom: item.bottom }}>
                                     <p href="">{item.combo}</p>
-
-                                    <h4>{item.title}</h4>
-
+                                    
+                                        <h4>{item.title}</h4>
+                                    
                                     <span className='block'>Đv: {item.priceInit}</span>
                                     <span className='block'>Đơn giá: {item.price}</span>
                                     <p>{item.description}</p>
@@ -96,9 +103,9 @@ const Courses = () => {
                                             <i className="fa-solid fa-star gold"></i>
                                             <span>4.7</span>
                                         </div>
-
-                                        <i className="fa-regular fa-heart heart" ></i>
-
+                                        
+                                            <i className="fa-regular fa-heart heart" ></i>
+                                      
                                     </div>
                                     <div className="view">
                                         <span>
@@ -115,7 +122,7 @@ const Courses = () => {
                         ))}
                     </Slider>
                 </div>
-
+                      
             </div>
         </div>
     )

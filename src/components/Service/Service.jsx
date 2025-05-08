@@ -1,10 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import './Service.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useLocation } from 'react-router-dom';
 const Service = () => {
+    const location = useLocation();
+    const queryParams = new URLSearchParams(location.search);
+    const id = queryParams.get('id'); // lấy id từ ?id=
     
     const services = [
         {   id: 1,
@@ -86,13 +90,24 @@ const Service = () => {
             ]
         }
     ];
+    const initialIndex = id ? services.findIndex(item => item.id === parseInt(id)) : 0;
+    const sliderRef = useRef(null);
+
+    // Cập nhật slide khi id trong URL thay đổi
+    useEffect(() => {
+        const index = id ? services.findIndex(s => s.id === parseInt(id)) : 0;
+        if (sliderRef.current && index >= 0) {
+            sliderRef.current.slickGoTo(index);
+        }
+    }, [id]);
     const settings = {
         dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true
+        arrows: true,
+        initialSlide: initialIndex >= 0 ? initialIndex : 0,
     };
 
     return (
@@ -100,7 +115,7 @@ const Service = () => {
             <div className="container">
                 <h2 className="section-title">Thông tin các gói sản phẩm</h2>
                 <div className="service-slider">
-                    <Slider {...settings}>{services.map((service, index) => (
+                    <Slider ref={sliderRef} {...settings}>{services.map((service, index) => (
                         <ServiceCard key={index} {...service} />
                     ))} </Slider>
 
