@@ -1,0 +1,120 @@
+.survey-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  
+    .survey-form {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+  
+      .title {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+  
+      .form-section {
+        margin-bottom: 2rem;
+  
+        h3 {
+            font-size: 25px;
+          font-weight: 600;
+          color: #2c3e50;
+          margin-bottom: 1.5rem;
+          padding-bottom: 0.5rem;
+          border-bottom: 2px solid #eee;
+        }
+      }
+  
+      .form-group {
+        margin-bottom: 1.5rem;
+  
+        label {
+          display: block;
+          margin-bottom: 0.5rem;
+          color: #34495e;
+          font-weight: 500;
+        }
+  
+        input, select {
+          width: 100%;
+          padding: 0.8rem;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          font-size: 1rem;
+  
+          &:focus {
+            outline: none;
+            border-color: #3498db;
+          }
+        }
+      }
+  
+      .skills-section {
+        .skill-group {
+          margin-bottom: 2rem;
+          padding: 1rem;
+          background: #f8f9fa;
+          border-radius: 8px;
+  
+          label {
+            font-weight: 600;
+            font-size: 1.1rem;
+          }
+  
+          .skill-description {
+            color: #666;
+            margin: 0.5rem 0;
+          }
+  
+          .rating-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+  
+            .rating-option {
+              display: flex;
+              align-items: center;
+              padding: 0.5rem;
+              background: white;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: all 0.3s ease;
+  
+              &:hover {
+                background: #e3f2fd;
+              }
+  
+              input[type="radio"] {
+                width: auto;
+                margin-right: 1rem;
+              }
+  
+              .rating-text {
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+  
+      .submit-btn {
+        width: 100%;
+        padding: 1rem;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: #3333 0.3s ease;
+  
+        &:hover {
+          background: #2980b9;
+        }
+      }
+    }
+  }

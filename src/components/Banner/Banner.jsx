@@ -6,15 +6,15 @@ const Banner = () => {
             <div class="container">
                 <div class="header-banner flex items-center justify-between">
                     <div class="logo">
-                        <a href="">
-                            <img src="/src/assets/big-logo.png" alt="" />
+                        <a href="/">
+                            <img src="/assets/big-logo.png" alt="" />
                         </a>
                     </div>
                     <nav>
                         <ul class="flex items-center j-center">
-                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="/about">Giới thiệu</a></li>
                          
-                            <li><a href="">Khảo sát</a></li>
+                            <li><a href="/survey">Khảo sát</a></li>
                             <li>
                                 <a href="">Dịch vụ</a>
                                 <span>HOT</span>

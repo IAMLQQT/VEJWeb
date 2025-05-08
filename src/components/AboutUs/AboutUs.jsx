@@ -17,7 +17,7 @@ const AboutUs = () => {
                 <div className="vision">
                 <span class="upper">Tầm nhìn và sứ mệnh</span>
                 <p class="para-text"><strong>Tầm nhìn:</strong> Trở thành nền tảng định hướng nghề nghiệp kỹ thuật uy tín cho học sinh Việt Nam, góp phần xây dựng thế hệ kỹ sư trẻ tài năng, hiểu mình – hiểu nghề.</p>
-                <p class="para text"><strong>Sứ mệnh:</strong>Sứ mệnh: VEJ cam kết mang đến môi trường trải nghiệm giáo dục thực tiễn, gần gũi và truyền cảm hứng, giúp học sinh khám phá bản thân, hiểu rõ các ngành kỹ thuật và tự tin xây dựng lộ trình tương lai.</p>
+                <p class="para text"><strong>Sứ mệnh:</strong> VEJ cam kết mang đến môi trường trải nghiệm giáo dục thực tiễn, gần gũi và truyền cảm hứng, giúp học sinh khám phá bản thân, hiểu rõ các ngành kỹ thuật và tự tin xây dựng lộ trình tương lai.</p>
                 </div>
                 
             </div>

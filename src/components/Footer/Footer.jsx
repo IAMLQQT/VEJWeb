@@ -48,8 +48,8 @@ const Footer = () => {
                         <h3>Trang</h3>
                         <nav>
                             <ul>
-                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Giới thiệu</a></li>
-                                <li><a href=""><i class="fa-solid fa-angle-right"></i>Khảo sát</a></li>
+                                <li><a href="/about"><i class="fa-solid fa-angle-right"></i>Giới thiệu</a></li>
+                                <li><a href="/survey"><i class="fa-solid fa-angle-right"></i>Khảo sát</a></li>
                                 <li><a href=""><i class="fa-solid fa-angle-right"></i>Dịch vụ</a></li>
                                 <li><a href=""><i class="fa-solid fa-angle-right"></i>Liên hệ</a></li>
                             </ul>

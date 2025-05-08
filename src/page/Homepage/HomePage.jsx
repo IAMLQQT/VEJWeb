@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import { Outlet } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import Banner from '../../components/Banner/Banner';
 import Courses from '../../components/Courses/Courses';
@@ -17,10 +17,17 @@ function HomePage() {
         <div className="home-page  relative h-screen">
           <Header />
           <Banner />
-          <Courses />
-          <Achivement />
-          <AboutUs />
-          <Subcriber />
+          {window.location.pathname === "/" ? (
+            <>
+
+              <Courses />
+              <Achivement />
+              <AboutUs />
+              <Subcriber />
+            </>
+          ) : (
+            <Outlet />
+          )}
           <Footer />
         </div>
       </div>

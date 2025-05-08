@@ -1,0 +1,100 @@
+.survey-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.survey-container .survey-form {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+.survey-container .survey-form .title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.survey-container .survey-form .form-section {
+  margin-bottom: 2rem;
+}
+.survey-container .survey-form .form-section h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eee;
+}
+.survey-container .survey-form .form-group {
+  margin-bottom: 1.5rem;
+}
+.survey-container .survey-form .form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #34495e;
+  font-weight: 500;
+}
+.survey-container .survey-form .form-group input, .survey-container .survey-form .form-group select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.survey-container .survey-form .form-group input:focus, .survey-container .survey-form .form-group select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+.survey-container .survey-form .skills-section .skill-group {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.survey-container .survey-form .skills-section .skill-group label {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.survey-container .survey-form .skills-section .skill-group .skill-description {
+  color: #666;
+  margin: 0.5rem 0;
+}
+.survey-container .survey-form .skills-section .skill-group .rating-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.survey-container .survey-form .skills-section .skill-group .rating-options .rating-option {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.survey-container .survey-form .skills-section .skill-group .rating-options .rating-option:hover {
+  background: #e3f2fd;
+}
+.survey-container .survey-form .skills-section .skill-group .rating-options .rating-option input[type=radio] {
+  width: auto;
+  margin-right: 1rem;
+}
+.survey-container .survey-form .skills-section .skill-group .rating-options .rating-option .rating-text {
+  font-weight: normal;
+}
+.survey-container .survey-form .submit-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: rgba(51, 51, 51, 0.2) 0.3s ease;
+}
+.survey-container .survey-form .submit-btn:hover {
+  background: #2980b9;
+}/*# sourceMappingURL=SurveyForm.css.map */
