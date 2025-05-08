@@ -1,0 +1,65 @@
+header {
+    background-color: #2C75E4;
+    padding: 12px 0;
+    text-align: center;
+    a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+
+    }
+    i {
+        margin: 0 5px;
+        color: #FFFFFF;
+    }
+    img {
+        transition: 0.3s;
+        &:hover {
+            background-color: rgba(#FFFF, 0.2);
+        }
+    }
+    .communications {
+        p {
+            margin-right: 35px;
+            font-size: 12px;
+            color: #FFFFFF;
+          
+        }
+    }
+    .link {
+        margin-right: 25px;
+        a {
+            i { 
+            margin-right: 15px;
+            transition: 0.3s;
+            &:hover {
+                color: #EAB830;
+                }
+            }
+        }
+
+    }
+    .login {
+        i {
+            margin-right: 10px;
+        }
+        a {
+            transition: 0.3s;
+            &:hover {
+                color: #EAB830;
+            }
+        }
+        .line { 
+            &::after {
+                content: '';
+                width: 1px; 
+                height: 12px;
+                background-color: #9A9A9A;
+                display: inline-block;
+                margin:0 10px;
+            }
+        }
+}
+}
+      

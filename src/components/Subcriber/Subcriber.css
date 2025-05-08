@@ -1,0 +1,35 @@
+.subcriber {
+  padding: 50px 0 65px 0;
+  background-color: #2C75E4;
+  color: #FFFFFF;
+}
+.subcriber .sub {
+  width: 580px;
+}
+.subcriber .sub h3 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+}
+.subcriber .sub p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+}
+.subcriber .sub form input {
+  width: 80%;
+  padding: 12px 20px;
+  background-color: #FFFFFF;
+}
+.subcriber .sub form input::-moz-placeholder {
+  color: #AAAAAA;
+}
+.subcriber .sub form input::placeholder {
+  color: #AAAAAA;
+}
+.subcriber .sub form label {
+  padding: 11px 13px;
+  background-color: #273044;
+  cursor: pointer;
+}/*# sourceMappingURL=Subcriber.css.map */

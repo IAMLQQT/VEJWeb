@@ -1,0 +1,53 @@
+header {
+  background-color: #2C75E4;
+  padding: 12px 0;
+  text-align: center;
+}
+header a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+header i {
+  margin: 0 5px;
+  color: #FFFFFF;
+}
+header img {
+  transition: 0.3s;
+}
+header img:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+header .communications p {
+  margin-right: 35px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+header .link {
+  margin-right: 25px;
+}
+header .link a i {
+  margin-right: 15px;
+  transition: 0.3s;
+}
+header .link a i:hover {
+  color: #EAB830;
+}
+header .login i {
+  margin-right: 10px;
+}
+header .login a {
+  transition: 0.3s;
+}
+header .login a:hover {
+  color: #EAB830;
+}
+header .login .line::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #9A9A9A;
+  display: inline-block;
+  margin: 0 10px;
+}/*# sourceMappingURL=Header.css.map */

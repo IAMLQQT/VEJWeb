@@ -1,0 +1,11 @@
+html, body, input, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

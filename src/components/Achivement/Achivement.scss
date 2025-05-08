@@ -1,0 +1,40 @@
+.achivements {
+    background: url(/src/assets/achivements.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 140px 0;
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 38px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    .row {
+        .items {
+            h3 {
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 55px;
+                color: #EAB830;
+                margin: 20px 0 10px 0;
+            }
+            span {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
