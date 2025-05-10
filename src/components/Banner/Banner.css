@@ -1,9 +1,9 @@
 .banner {
-  background: url(/assets/banner.png);
+  background: url(/assets/banner.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 26px 0;
+  padding: 100px 0;
   position: relative;
 }
 .banner .main-banner {
@@ -11,71 +11,20 @@
   text-transform: uppercase;
   padding: 190px 0;
 }
-.banner .main-banner h2 {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 75px;
-  color: #ffffff;
-}
-.banner .main-banner .gold {
-  font-size: 50px;
-  color: #eab830;
-}
 .banner .main-banner button span {
   cursor: pointer;
   display: block;
-  margin-top: 20px;
   font-weight: 700;
   font-size: 17px;
   line-height: 30px;
-  color: #ffffff;
+  color: #333333;
   padding: 10px 37px;
   border-radius: 30px;
-  border: 2px solid #ffffff;
+  border: 2px solid #333333;
   transition: 0.5s;
 }
 .banner .main-banner button span:hover {
   background-color: #2c7aff;
   border: 2px solid #2c7aff;
-}
-.banner .elementor {
-  position: absolute;
-  top: 85%;
-}
-.banner .elementor .green {
-  background-color: #10c45c;
-}
-.banner .elementor .lightblue {
-  background-color: #1ec1d9;
-}
-.banner .elementor .blue {
-  background-color: #307ad5;
-}
-.banner .elementor .yellow {
-  background-color: #eab830;
-}
-.banner .elementor .pink {
-  background-color: #d94da6;
-}
-.banner .elementor .items {
-  width: 224px;
-  height: 220px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  margin-left: 12.5px;
-  transition: 0.3s;
-}
-.banner .elementor .items:hover {
-  transform: translateY(-20px);
-}
-.banner .elementor .items span {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 26px;
-  color: #ffffff;
-  width: 143px;
-  display: block;
+  color: #FFFFFF;
 }/*# sourceMappingURL=Banner.css.map */

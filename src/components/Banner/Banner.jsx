@@ -3,12 +3,10 @@ import { Link } from 'react-router-dom'
 import "./Banner.css"
 const Banner = ({ onClickScroll }) => {
     return (
-        <div className="banner">
+        <div className="banner relative">
             <div class="container">
                 <div class="main-banner">
-                    <h2 class="gold">Học qua từng bước chân</h2>
-                    <h2>Phát triển bản thân qua hành trình <br />khám phá Việt Nam</h2>
-                    <button onClick={onClickScroll}><span >Bạn đã sẵn sàng?</span></button>
+                    <button className='absolute bottom-1/12 left-1/2 transform -translate-x-1/2' onClick={onClickScroll}><span >Bạn đã sẵn sàng?</span></button>
                 </div>
             </div>
         </div>
