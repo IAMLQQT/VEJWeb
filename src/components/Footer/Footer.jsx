@@ -57,9 +57,9 @@ const Footer = () => {
                     </div>
                     <div class="items">
                         <h3>Liên hệ</h3>
-                        <p class="contact"><i class="fa-solid fa-location-dot"></i>280 An Dương Vương, phường 2, quận 5,TPHCM.</p>
-                        <p class="contact"><i class="fa-solid fa-phone"></i>Tel.: 0848 021 715</p>
-                        <p class="contact"><i class="fa-solid fa-print"></i>Zalo: 0848 021 715</p>
+                        <p class="contact"><i class="fa-solid fa-location-dot"></i>  456 Lý Thường Kiệt, Phường 14, Quận 10, TP.HCM</p>
+                        <p class="contact"><i class="fa-solid fa-phone"></i>Tel: 0946 254 632</p>
+                        <p class="contact"><i class="fa-solid fa-print"></i>Zalo: 0946 254 632</p>
                         <p class="contact"><i class="fa-solid fa-envelope"></i>vej@gmail.com</p>
                     </div>
                 </div>

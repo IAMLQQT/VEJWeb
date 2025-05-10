@@ -15,11 +15,11 @@ const Header = () => {
           <div class="communications flex items-center j-center">
               <p>
                 <i class="fa-solid fa-phone-flip"></i>
-                0848 021 715
+                0946 254 632
               </p>
               <p>
                 <i class="fa-solid fa-location-dot"></i>
-                280 An Dương Vương, phường 2, quận 5, TPHCM.
+                456 Lý Thường Kiệt, Phường 14, Quận 10, TP.HCM
               </p>
               <p>
                 <i class="fa-regular fa-clock"></i>
