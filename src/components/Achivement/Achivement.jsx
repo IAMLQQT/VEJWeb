@@ -19,7 +19,7 @@ const Achivement = () => {
                     </div>
                     <div class="items col-xs-12 col-sm-6  col-lg-3 flex items-center justify-center flex-col">
                         <img src="/assets/population.png" alt="" />
-                        <h3>100</h3>
+                        <h3>50</h3>
                         <span>Số lượng học sinh đã học</span>
                     </div>
                     <div class="items col-xs-12 col-sm-6  col-lg-3 flex items-center justify-center flex-col">
