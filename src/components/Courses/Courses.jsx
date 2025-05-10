@@ -61,7 +61,7 @@ const Courses = forwardRef((props, ref) => {
         },
     ]  
     const navigate = useNavigate();
-
+    
     const handleClick = (id) => {
       navigate(`/service?id=${id}`);
     };

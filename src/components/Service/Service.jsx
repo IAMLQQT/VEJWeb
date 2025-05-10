@@ -9,7 +9,8 @@ const Service = () => {
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
     const id = queryParams.get('id'); // lấy id từ ?id=
-    
+    const serviceDetailRef = useRef(null);
+
     const services = [
         {   id: 1,
             title: "GÓI HOẠT ĐỘNG TRẢI NGHIỆM DÀNH CHO HỌC SINH (COMBO 1)",
@@ -99,7 +100,14 @@ const Service = () => {
         if (sliderRef.current && index >= 0) {
             sliderRef.current.slickGoTo(index);
         }
+        if (id && serviceDetailRef.current) {
+            serviceDetailRef.current.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
     }, [id]);
+
     const settings = {
         dots: false,
         infinite: true,
@@ -111,7 +119,7 @@ const Service = () => {
     };
 
     return (
-        <section className="service-section">
+        <section ref={serviceDetailRef} className="service-section">
             <div className="container">
                 <h2 className="section-title">Thông tin các gói sản phẩm</h2>
                 <div className="service-slider">
