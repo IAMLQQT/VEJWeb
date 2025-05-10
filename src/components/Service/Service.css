@@ -178,20 +178,3 @@
   color: #27ae60;
   margin-right: 10px;
 }/*# sourceMappingURL=Service.css.map */
-.service-card {
-  transition: all 0.3s ease;
-}
-
-.service-card.active {
-  transform: scale(1.02);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.service-slider .slick-slide {
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.service-slider .slick-current {
-  opacity: 1;
-}

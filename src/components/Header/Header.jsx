@@ -1,18 +1,18 @@
 import React from 'react'
 
 import "./Header.css"
+import HeaderBottom from './HeaderBottom/HeaderBottom'
 const Header = () => {
   return (
-    <div className="header">
-      <header>
-        <div class="container flex items-center justify-between">
+    <div className="header relative">
+      <header className="bg-[#2C75E4]">
+        <div class="container flex items-center justify-between ">
           <div>
-            <a href="">English
+            <a href="">Tiếng việt
               <i class="fa-solid fa-angle-down"></i>
             </a>
           </div>
-          <div class="flex items-center j-center">
-            <div class="communications flex items-center j-center">
+          <div class="communications flex items-center j-center">
               <p>
                 <i class="fa-solid fa-phone-flip"></i>
                 0848 021 715
@@ -26,40 +26,30 @@ const Header = () => {
                 Thứ 2 - Thứ 7 8.00 - 18.00
               </p>
             </div>
+          <div class="flex items-center j-center">
+           
             <div class="link">
               <a href="">
                 <i class="fa-brands fa-facebook"></i>
               </a>
               <a href="">
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
               </a>
               <a href="">
                 <i class="fa-brands fa-instagram"></i>
               </a>
-              <a href="">
-                <i class="fa-brands fa-pinterest"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-invision"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-behance"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-git"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-dropbox"></i>
-              </a>
+             
             </div>
             <div class="login flex items-center j-center">
               <i class="fa-solid fa-user"></i>
-              <a href="" class="line">Login</a>
-              <a href="">Register</a>
+              <a href="" class="line">Đăng nhập</a>
+              <a href="">Đăng ký</a>
             </div>
           </div>
         </div>
+        
       </header>
+      <HeaderBottom />
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
-import { useState } from 'react'
+import { forwardRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import "./Courses.css"
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const Courses = () => {
+const Courses = forwardRef((props, ref) => {
     const settings = {
         dots: false,
         infinite: true,
@@ -69,7 +69,7 @@ const Courses = () => {
 
     return (
 
-        <div class="top-courses">
+        <div ref ={ref} id="courses-section" class="top-courses">
             <div class="container relative">
                 <div class="header flex items-center justify-between">
                     <h2>Dịch vụ</h2>
@@ -126,6 +126,6 @@ const Courses = () => {
             </div>
         </div>
     )
-}
+})
 
 export default Courses

@@ -5,71 +5,14 @@
     background-size: cover;
     padding: 26px 0;
     position: relative;
-    .header-banner {
-        nav {
-            > ul {
-                > li {
-                    position: relative;
-                    > a {
-                        font-weight: 600;
-                        font-size: 14px;
-                        line-height: 22px;
-                        color: #ffffff;
-                        text-transform: uppercase;
-                        margin-left: 28px;
-                        position: relative;
-                        transition: 0.3s;
-                        z-index: 0;
-                        &:hover {
-                            color: #eab830;
-                        }
-                    }
-                    .search {
-                        padding: 9px;
-                        border: 2px solid #ffffff;
-                        transition: 0.3s;
-                        &:hover {
-                            &::after {
-                                width: 100%;
-                            }
-                            color: #ffffff;
-                            border: 2px solid #eab830;
-                        }
-                        &::after {
-                            content: "";
-                            width: 0%;
-                            height: 100%;
-                            background-color: #eab830;
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            transition: 0.3s;
-                            z-index: -1;
-                        }
-                    }
-                    span {
-                        position: absolute;
-                        padding: 0 5px;
-                        font-weight: 600;
-                        font-size: 8px;
-                        line-height: 14px;
-                        color: #ffffff;
-                        background-color: #dc1245;
-                        top: -13px;
-                        right: -10px;
-                        border-radius: 3px 3px 3px 0px;
-                    }
-                }
-            }
-        }
-    }
+   
     .main-banner {
         text-align: center;
         text-transform: uppercase;
         padding: 190px 0;
         h2 {
             font-weight: 700;
-            font-size: 70px;
+            font-size: 50px;
             line-height: 75px;
             color: #ffffff;
         }
@@ -78,7 +21,9 @@
             color: #eab830;
         }
         button {
-            a {
+            span {
+                cursor: pointer;
+                display: block;
                 margin-top: 20px;
                 font-weight: 700;
                 font-size: 17px;

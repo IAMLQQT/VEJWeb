@@ -6,58 +6,6 @@
   padding: 26px 0;
   position: relative;
 }
-.banner .header-banner nav > ul > li {
-  position: relative;
-}
-.banner .header-banner nav > ul > li > a {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 22px;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-left: 28px;
-  position: relative;
-  transition: 0.3s;
-  z-index: 0;
-}
-.banner .header-banner nav > ul > li > a:hover {
-  color: #eab830;
-}
-.banner .header-banner nav > ul > li .search {
-  padding: 9px;
-  border: 2px solid #ffffff;
-  transition: 0.3s;
-}
-.banner .header-banner nav > ul > li .search:hover {
-  color: #ffffff;
-  border: 2px solid #eab830;
-}
-.banner .header-banner nav > ul > li .search:hover::after {
-  width: 100%;
-}
-.banner .header-banner nav > ul > li .search::after {
-  content: "";
-  width: 0%;
-  height: 100%;
-  background-color: #eab830;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.3s;
-  z-index: -1;
-}
-.banner .header-banner nav > ul > li span {
-  position: absolute;
-  padding: 0 5px;
-  font-weight: 600;
-  font-size: 8px;
-  line-height: 14px;
-  color: #ffffff;
-  background-color: #dc1245;
-  top: -13px;
-  right: -10px;
-  border-radius: 3px 3px 3px 0px;
-}
 .banner .main-banner {
   text-align: center;
   text-transform: uppercase;
@@ -65,7 +13,7 @@
 }
 .banner .main-banner h2 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 75px;
   color: #ffffff;
 }
@@ -73,7 +21,9 @@
   font-size: 50px;
   color: #eab830;
 }
-.banner .main-banner button a {
+.banner .main-banner button span {
+  cursor: pointer;
+  display: block;
   margin-top: 20px;
   font-weight: 700;
   font-size: 17px;
@@ -84,7 +34,7 @@
   border: 2px solid #ffffff;
   transition: 0.5s;
 }
-.banner .main-banner button a:hover {
+.banner .main-banner button span:hover {
   background-color: #2c7aff;
   border: 2px solid #2c7aff;
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import Banner from '../../components/Banner/Banner';
@@ -10,17 +10,20 @@ import Footer from '../../components/Footer/Footer';
 
 function HomePage() {
   const location = useLocation();
-
+  const coursesRef = useRef(null);
+  const scrollToCourses = () => {
+    coursesRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className="App relative">
       <div className="container-page">
         <div className="home-page  relative h-screen">
           <Header />
-          <Banner />
+
           {location.pathname === "/" ? (
             <>
-
-              <Courses />
+              <Banner onClickScroll={scrollToCourses} />
+              <Courses ref={coursesRef}/>
               <Achivement />
               <AboutUs />
               <Subcriber />
